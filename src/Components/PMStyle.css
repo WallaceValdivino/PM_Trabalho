@@ -1,0 +1,96 @@
+@media (max-width: 700px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
+    .hide-on-desktop {
+        display: none;
+    }
+}
+
+.pm-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+
+.pm-caption {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+}
+
+.pm-th {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #a31211;
+    color: white;
+}
+
+.pm-td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.room-dropdown {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.room-dropdown select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+}
+
+.search-icon {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(156, 0, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: rgb(156, 0, 0);
+    color: seashell;
+}
+
+button.hide-on-desktop {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    button.hide-on-desktop {
+        display: inline-block;
+    }
+}
